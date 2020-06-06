@@ -33,7 +33,7 @@ celebrate({
     items: Joi.string().required(),
   })
 }, {
-  abortEarly: false,
+  abortEarly: false, 
 }),  
 pointsController.create);
 
